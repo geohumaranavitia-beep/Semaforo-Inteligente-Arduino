@@ -1,4 +1,4 @@
-#  Bitácora de Desarrollo: Semáforo Inteligente e Interactivo
+#  Bitácora de Desarrollo:
 
 ¡Hola! Soy estudiante de tercer semestre de preparatoria en Durango, México. Este repositorio documenta mi evolución desde no saber nada de programación hasta diseñar y programar un sistema interactivo de control de tráfico en **C++ (Arduino)**.
 
