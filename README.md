@@ -1,23 +1,30 @@
-#  Bitácora de Desarrollo:
+# 🚀 ¡Hola! Soy un Futuro Ingeniero de Software
 
-¡Hola! Soy estudiante de tercer semestre de preparatoria en Durango, México. Este repositorio documenta mi evolución desde no saber nada de programación hasta diseñar y programar un sistema interactivo de control de tráfico en **C++ (Arduino)**.
+¡Bienvenido a mi portafolio internacional! Tengo 16 años, soy estudiante de bachillerato en Durango, México, y utilizo este espacio para documentar mi evolución en la robótica, los sistemas autónomos y la programación de software.
 
-Este proyecto fue desarrollado y probado al 100% de forma autónoma utilizando el simulador **Tinkercad Circuits**.
-
----
-
-## Fase 1: El Inicio (Control del LED)
-Mi primer paso en el laboratorio virtual fue aprender a manipular la corriente eléctrica mediante el código. Logré conectar un LED rojo al **Pin 13** y programar la lógica estructurada para controlar los tiempos de encendido mediante la función `delay()`. 
-* *Logro clave:* Entender la diferencia entre las funciones de configuración (`setup`) y los ciclos infinitos (`loop`).
-
-##🚦 Fase 2: El Semáforo Automático
-Subiendo el nivel de complejidad, añadí dos LEDs más (Amarillo en el **Pin 12** y Rojo en el **Pin 11**) con resistencias de protección de **220 Ω** calibradas correctamente. Diseñé un algoritmo secuencial para simular el cambio de luces de una avenida real.
-
-## Fase 3: Modo Inteligente (El Botón Peatonal)
-El diseño final transformó el circuito en un sistema inteligente capaz de escuchar al entorno. Añadí un **Pulsador** (con resistencia Pull-down de **10k Ω** para limpiar el ruido eléctrico) conectado al **Pin 2**.
-* **La Lógica Condicional (`if / else`):** El semáforo se mantiene en Verde eterno para los autos. En el instante exacto en que un peatón presiona el botón (`HIGH`), el Arduino interrumpe el bucle normal, activa la luz de precaución (Amarillo) y frena el tráfico (Rojo por 4 segundos) para permitir un cruce seguro.
+Me apasiona resolver problemas complejos de hardware, cazar errores de lógica (*debugging*) y diseñar soluciones interactivas.
 
 ---
 
-## Mi Meta Profesional
-Utilizo GitHub para construir mi portafolio técnico desde la preparatoria. Mi objetivo a mediano plazo es estudiar Ciencias de la Computación o Robótica Avanzada para integrarme a la industria tecnológica internacional en **Zúrich, Suiza**.
+## 🛠️ Tecnologías y Herramientas en Desarrollo
+* **Lenguajes:** C++ (Arduino IDE)
+* **Entornos de Simulación:** Tinkercad Circuits (Diseños Públicos)
+* **Control de Versiones:** GitHub
+
+---
+
+## 📁 Mis Proyectos Destacados
+
+### 🚦 [Semáforo Autónomo con Sensor Ultrasónico](https://github.com)
+Un sistema de tráfico inteligente simulado en Tinkercad que mide la distancia del entorno mediante un sensor HC-SR04 y utiliza un candado lógico (`while`) para congelar la luz roja de forma estática hasta que el vehículo se retira.
+
+### 🚓 [Efecto Patrulla de Emergencia Rápida](https://github.com)
+Un circuito independiente configurado a máxima potencia gráfica en la protoboard (220 Ω) que ejecuta un intercambio secuencial de energía a una velocidad de 150 milisegundos sin generar hilos fantasmas.
+
+---
+
+## 🎯 Mi Meta Profesional
+Mi objetivo a mediano plazo es ingresar a la **Ingeniería en Sistemas Computacionales en el Instituto Tecnológico de Durango (ITD)**, dominar el idioma inglés y seguir alimentando este portafolio con sistemas embebidos cada vez más complejos para buscar la reubicación internacional en la industria tecnológica de **Zúrich, Suiza**.
+
+---
+*“La ingeniería no se trata de no cometer errores, sino de tener la necedad y la disciplina para cazarlos hasta que el sistema brille con toda su potencia”.*
